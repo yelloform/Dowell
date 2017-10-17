@@ -1419,7 +1419,8 @@ pre code {
 
 .table td,
 .table th {
-    padding: .75rem;
+    /*padding: .75rem;*/
+    font-size:0.7rem;
     vertical-align: top;
     border-top: 1px solid #e9ecef
 }

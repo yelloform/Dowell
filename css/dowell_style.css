@@ -3,9 +3,13 @@
 
 
 #service{width:100%; height:auto;}
-
-
-
+#service table{font-size:0.7rem!important;}
+#service table tr{width}
+#service .table-body{position:relative; height:500px;}
+#service .table-body table{position:absolute; top:2%;  font-size:0.7rem; /*height:500px*/;}
+#service .table th{ padding : none !important;}
+#service .table-body table th{width:50px;}
+#service .table-bordered td {height:30px !important;}
 
 .logo{color:#1d1d48 !important; }
 
