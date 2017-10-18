@@ -30,6 +30,19 @@
     <link rel="stylesheet" href="css/dowell_style.css">
     <link rel="stylesheet" href="css/jquery-jvectormap-2.0.4.css">
     <script href="js/jquery-jvectormap-cn-mill.js"></script>
+
+
+    <style>
+        .carousel-item {
+          height: 100vh;
+          min-height: 300px;
+          background: no-repeat center center scroll;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+        }
+    </style>
 </head>
 
 <body id="page-top">
@@ -44,10 +57,10 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#about">상품안내</a>
+                        <a class="nav-link js-scroll-trigger" href="#about">보험사업</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#services">중국협약 병원</a>
+                        <a class="nav-link js-scroll-trigger" href="#services">병원네트워크</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#inquiry">병원문의</a>
@@ -56,33 +69,75 @@
                         <a class="nav-link js-scroll-trigger" href="#dowell_health">헬스케어</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#huatai_info">제휴</a>
+                        <a class="nav-link js-scroll-trigger" href="#huatai_info">화타이</a>
                     </li>
-                    <!--<li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-                    </li>-->
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#partnerShip">제휴</a>
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <header class="masthead">
-        <div class="header-content">
-            <div class="header-content-inner">
-                <h1 id="homeHeading">DOWELL</h1>
+
+   <!-- Slide Header -->
+    <header>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <!-- Slide One - Set the background image for this slide in the line below -->
+          <div class="carousel-item active" style="background-image: url('img/Dowell-img/header01.jpg')">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 id="homeHeading">DOWELL</h1>
                 <hr>
-                <p>언제나 고객을 최우선으로 생각하는 DOWELL입니다.</p>
+                <p>의료관리 전문 법인 Dowell입니다.</p>
+
+            </div>
+          </div>
+          <!-- Slide Two - Set the background image for this slide in the line below -->
+          <div class="carousel-item" style="background-image: url('img/Dowell-img/header02.jpg')">
+            <div class="carousel-caption d-none d-md-block main_title">
+              <h1 id="homeHeading">DOWELL</h1>
+                <hr>
+                <p>중국최대 보험회사 화타이사와 연계한 보험서비스 제공</p>
                 <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
             </div>
+          </div>
+          <!-- Slide Three - Set the background image for this slide in the line below -->
+          <div class="carousel-item" style="background-image: url('img/Dowell-img/header03.jpg')">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 id="homeHeading">DOWELL</h1>
+                <hr>
+                <p>한국 내 MOU기관을 통한 건강검진 서비스 제공</p>
+                <a class="btn btn-primary btn-xl js-scroll-trigger" href="#huatai_info">Find Out More</a>
+            </div>
+          </div>
         </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
     </header>
+    <!-- Finish slide header -->
+
+
 
     <section class="bg-primary" id="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-13 mx-auto text-center">
-                    <h2 class="section-heading text-blue">상품안내</h2>
+                    <h2 class="section-heading text-blue">보험사업</h2>
                     <hr class="light">
+                    <p>중국최대 보험사인 화타이사와 연계, 보험과 의료서비스를 결합한 한국인 전용 서비스 제공</p>
                     <table class="tg" style="undefined;table-layout: fixed; width: 1142px">
                         <colgroup>
                             <col style="width: 99px">
@@ -229,7 +284,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">중국전역 협약 현황</h2>
+                    <h2 class="section-heading">병원 네트워크 현황</h2>
                     <hr class="primary">
                 </div>
             </div>
@@ -3002,8 +3057,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto text-center">
-                    <h2 class="section-heading">DOWELL 헬스케어</h2>
+                    <h2 class="section-heading">헬스 케어</h2>
                     <hr class="primary">
+                    <p> ~~~~~~~~~~ 개요 ~~~~~~~~~~</p>
                 </div>
             </div>
 
@@ -3040,41 +3096,39 @@
                     <img src="img/Dowell-img/Picture3.png" alt="카드 신청">
                 </div>
             </div>
-            <section id="result">
+        </div>
+    </section>
+    <section id="result" class="bg-dark">
                 <div class="container">
-                   <div class="row row-top">
+                   <div class="row ">
                         <div class="col-lg-8 mx-auto text-center">
-                            <h2 class="section-heading">후속진료 연계서비스</h2>
+                            <h2 class="section-heading text-white">후속진료 연계서비스</h2>
                             <hr class="primary">
-                        </div>
-                    </div>
-                    <!--<div class="col-lg-8 mx-auto text-center">
-                        <h2 class="section-heading">후속진료 연계 서비스 기관</h2>
-                        <hr class="primary">
-                    </div>-->
-                    <a href="https://www.aaihc.com/web/" target="_blank">
+                            <a href="https://www.aaihc.com/web/" target="_blank">
                         <img src="img/Dowell-img/aai_logo_c.svg" alt="aai 헬스케어">
                     </a>
-                    <div class="row row-top">
-                        <div class="col-lg-8 mx-auto text-center">
-                            <h2 class="section-heading">검진결과 후속진료 연계 서비스 FLOW</h2>
-                            <hr class="primary">
                         </div>
                     </div>
-                    <!--<div class="col-lg-8 mx-auto text-center">
-                        <h2 class="section-heading">검진결과 후속진료 연계 서비스 FLOW</h2>
-                        <hr class="primary">
-                    </div>-->
-                    <div class="imgWrap">
-                        <img src="img/Dowell-img/Picture4.png" alt="연계 서비스 플로우">
-                    </div>
 
-                    <div class="col-lg-8 mx-auto text-center row-top">
-                        <h2 class="section-heading">검진결과 통보방법</h2>
-                        <hr class="primary">
+                    <div class="row ">
+                        <div class="col-lg-8 mx-auto text-center">
+                            <h2 class="section-heading text-white">검진결과 후속진료 연계 서비스 FLOW</h2>
+                            <hr class="primary">
+                            <div class="imgWrap">
+                                <img src="img/Dowell-img/Picture4.png" alt="연계 서비스 플로우">
+                            </div>
+                        </div>
+
                     </div>
-                    <div class="imgWrap">
-                        <img src="img/Dowell-img/Picture5.png" alt="검진결과 통보방법">
+                    <div class="row">
+                        <div class="col-lg-8 mx-auto text-center row-top">
+                            <h2 class="section-heading text-white">검진결과 통보방법</h2>
+                            <hr class="primary">
+                            <div class="imgWrap">
+                                <img src="img/Dowell-img/Picture5.png" alt="검진결과 통보방법">
+                            </div>
+                        </div>
+
                     </div>
                     <table class="Rtable">
                         <tr>
@@ -3106,16 +3160,14 @@
                             <td><input type="text"></td>
                         </tr>
                     </table>
-                        <a type="submit" class="btn btn-primary btn-xl js-scroll-trigger" href="#">제출하기</a>
+                        <a type="submit" class="btn btn-white btn-xl js-scroll-trigger" href="#">제출하기</a>
                     <!--<div class="col-lg-8 mx-auto text-center">
                         <h2 class="section-heading">카드발급안내</h2>
                         <hr class="primary">
                     </div>-->
 
                 </div>
-            </div>
-        </div>
-    </section>
+            </section>
     <section id="huatai_info">
         <div class="container">
             <div class="col-lg-12 text-center">
@@ -3139,55 +3191,65 @@
                     <h4>대한민국</h4>
                 </div>
                 <div class="partner_content col-lg-12">
-                   <div class="col-lg-4 col-sm-6">
+                   <div class="col-lg-4 col-sm-6 imgBox">
                     <a href="http://travelover.co.kr" target="_blank">
-                        <div class="imgBox"><img src="img/Dowell-img/01_travelover_logo.png" alt=""><br>http://travelover.co.kr</div>
+                        <img src="img/Dowell-img/01_travelover_logo.png" alt=""><br>http://travelover.co.kr
                     </a>
                     </div>
-                    <div class="col-lg-4 col-sm-6">
+                    <div class="col-lg-4 col-sm-6 imgBox">
                        <a href="http://apys.or.kr" target="_blank">
-                        <div class="imgBox"><img src="img/Dowell-img/02_apys_logo.png" alt=""><br>http://apys.or.kr</div>
+                        <img src="img/Dowell-img/02_apys_logo.png" alt=""><br>http://apys.or.kr
                         </a></div>
-                    <div class="col-lg-4 col-sm-6">
+                    <div class="col-lg-4 col-sm-6 imgBox">
                        <a href="http://kmi.or.kr" target="_blank">
-                        <div class="imgBox"><img src="img/Dowell-img/03_KMI-logo.png" alt=""><br>http://kmi.or.kr</div>
+                        <img src="img/Dowell-img/03_KMI-logo.png" alt=""><br>http://kmi.or.kr
                         </a></div>
-                    <div class="col-lg-4 col-sm-6">
+                    <div class="col-lg-4 col-sm-6 imgBox">
                        <a href="http://aaihc.com" target="_blank">
-                        <div class="imgBox"><img src="img/Dowell-img/04_aaihc-logo.png" alt=""><br>http://aaihc.com</div>
+                        <img src="img/Dowell-img/04_aaihc-logo.png" alt=""><br>http://aaihc.com
                         </a></div>
-                    <div class="col-lg-4 col-sm-6">
+                    <div class="col-lg-4 col-sm-6 imgBox">
                        <a href="http://mofa.go.kr" target="_blank">
-                        <div class="imgBox"><img src="img/Dowell-img/05_mofa_logo_top.png" alt=""><br>http://mofa.go.kr</div>
+                        <img src="img/Dowell-img/05_mofa_logo_top.png" alt=""><br>http://mofa.go.kr
                         </a></div>
                 </div>
                 <div class="partner_subTitle">
                     <h4>중국</h4>
                 </div>
                 <div class="partner_content">
-                    <a href="htp://cn.korean.net" target="_blank">
-                        <div class="imgBox">
-                            <img src="img/Dowell-img/ch01-logo.jpg" alt="중국한국인회"><br>htp://cn.korean.net
-                        </div>
-                    </a>
-                    <a href="http://www.korcham-china.net/" target="_blank">
-                        <div class="imgBox"><img src="img/Dowell-img/ch02-logo.jpg" alt="중국한국상회"><br>http://www.korcham-china.net/</div>
-                    </a>
-                    <a href="http://www.huataimarine.com" target="_blank">
-                        <div class="imgBox"><img src="img/Dowell-img/ch03-logo.png" alt=""><br>http://www.huataimarine.com/</div>
-                    </a>
-                    <a href="http://chn.mofa.go.kr" target="_blank">
-                        <div class="imgBox"><img src="img/Dowell-img/ch04-logo.jpeg" alt="주 중국 대한민국 대사관"><br>http://chn.mofa.go.kr</div>
-                    </a>
-                    <a href="http://beijing120.com/" target="_blank">
-                        <div class="imgBox"><img src="img/Dowell-img/ch05-logo.png" alt="중국긴급의료센터"><br>http://beijing120.com/</div>
-                    </a>
-                    <a href="http://asia.marsh.com/china" target="_blank">
-                        <div class="imgBox"><img src="img/Dowell-img/ch06-logo.gif" alt=""><br>http://asia.marsh.com/china/</div>
-                    </a>
-                    <a href="http://www.moyiza.com/" target="_blank">
-                        <div class="imgBox"><img src="img/Dowell-img/ch07-myz_logo.gif" alt="모이자"><br>http://www.moyiza.com/</div>
-                    </a>
+                   <div class="col-lg-4 col-sm-6 imgBox">
+                       <a href="http://mofa.go.kr" target="_blank">
+                        <img src="img/Dowell-img/05_mofa_logo_top.png" alt=""><br>http://mofa.go.kr
+                        </a></div>
+                    <div class="col-lg-4 col-sm-6 imgBox">
+                       <a href="htp://cn.korean.net" target="_blank">
+                        <img src="img/Dowell-img/ch01-logo.jpg" alt="중국한국인회"><br>htp://cn.korean.net
+                        /
+                    </a></div>
+                    <div class="col-lg-4 col-sm-6 imgBox">
+                       <a href="http://www.korcham-china.net/" target="_blank">
+                        <img src="img/Dowell-img/ch02-logo.jpg" alt="중국한국상회"><br>http://www.korcham-china.net/
+                    </a></div>
+                    <div class="col-lg-4 col-sm-6 imgBox">
+                       <a href="http://www.huataimarine.com" target="_blank">
+                        <img src="img/Dowell-img/ch03-logo.png" alt=""><br>http://www.huataimarine.com/
+                    </a></div>
+                    <div class="col-lg-4 col-sm-6 imgBox">
+                       <a href="http://chn.mofa.go.kr" target="_blank">
+                        <img src="img/Dowell-img/ch04-logo.jpeg" alt="주 중국 대한민국 대사관"><br>http://chn.mofa.go.kr/
+                    </a></div>
+                    <div class="col-lg-4 col-sm-6 imgBox">
+                       <a href="http://beijing120.com/" target="_blank">
+                        <img src="img/Dowell-img/ch05-logo.png" alt="중국긴급의료센터"><br>http://beijing120.com/
+                    </a></div>
+                    <div class="col-lg-4 col-sm-6 imgBox">
+                       <a href="http://asia.marsh.com/china" target="_blank">
+                        <img src="img/Dowell-img/ch06-logo.gif" alt=""><br>http://asia.marsh.com/china/
+                    </a></div>
+                    <div class="col-lg-4 col-sm-6 imgBox">
+                       <a href="http://www.moyiza.com/" target="_blank">
+                        <img src="img/Dowell-img/ch07-myz_logo.gif" alt="모이자"><br>http://www.moyiza.com/
+                    </a></div>
                 </div>
             </div>
         </div>
@@ -3196,7 +3258,7 @@
         <div class="fwrap">
             <div class="footer-content">
                 <p>
-                    (주)여행자보험몰 대표 이달호<br> 주소: 서울특별시 영등포구 당산로41길 11, SK V1 Center E동 1509호<br> 사업자 등록번호:104-81-84072 | 보험대리점등록번호 제2003121153호<br> 통신판매허가번호 제2015-서울영등포-0682호<br> 본사이트 내 이메일 주소 무단수집을 거부하며, 위반 시 법에 따라 처벌됨을 공지합니다.<br> COPYRIGHT &copy; 2016 TRAVELOVER ALL RIGHTS RESERVED
+                    (주)여행자보험몰 대표 이달호<br> 주소: 서울특별시 영등포구 당산로41길 11, SK V1 Center E동 1509호<br> 사업자 등록번호:104-81-84072 | 보험대리점등록번호 제2003121153호<br> 통신판매허가번호 제2015-서울영등포-0682호<br> 본사이트 내 이메일 주소 무단수집을 거부하며, 위반 시 법에 따라 처벌됨을 공지합니다.<br> <span>COPYRIGHT &copy; 2016 TRAVELOVER ALL RIGHTS RESERVED</span>
                 </p>
             </div>
         </div>

@@ -64,6 +64,9 @@ p {
     color: rgba(255, 255, 255, .7)
 }
 
+.bg-faded{
+     background-color: #eee!important
+}
 table {
     width: 100%;
 }
@@ -552,7 +555,7 @@ fieldset[disabled] .btn-default:hover {
 
 .btn-primary {
     color: #fff;
-    border-color: #ffc107;
+    /*border-color: #ffc107;*/
     background-color: #ffc107
 }
 

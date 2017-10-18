@@ -1,3 +1,4 @@
+h1{font-weight:bold!important}
 #about{width:100%; height:auto; }
 #about .container table{width:100%; max-width: 1000px; margin:0 auto;}
 
@@ -42,6 +43,8 @@
 [class*=row0]{margin:30px;}
 #dowell_health .card{width:100%; height: auto; padding:20px;  box-sizing: border-box; border:none;}
 #dowell_health .card p{ width:100%; }
+#dowell_health .card p{ width:100%; text-align: center;}
+#dowell_health .card li{text-align: center; list-style: none;}
 #dowell_health .title {margin:50px 0;}
 #dowell_health .row02 {max-width:900px; width:100%; margin:0 auto;}
 #dowell_health .row02 .cardImg{max-width:700px; width:100%; margin:0 auto;}
@@ -49,16 +52,16 @@
 .section-heading{margin-top:60px !important;}
 
 
-#dowell_health #result{max-width:900px; width:100%; margin:0 auto;}
-#dowell_health #result a{ display:block; margin:20px auto; width:290px; }
-#dowell_health #result .imgWrap{width:100%;  text-align: center; }
-#dowell_health #result .imgWrap img{width:80%; margin:20px;}
+#result{ width:100%;  }
+#result a{ display:block; margin:30px auto; width:290px; color:#000; }
+#result .imgWrap{width:100%; margin:0 auto; text-align: center; }
+#result .imgWrap img{width:100%; margin:20px auto;}
 
-.Rtable{max-width:600px; height:300px; margin:0 auto; text-align: center; border:2px solid #898989;}
-.Rtable th{font-size: 18px; background:#898989; color:#fff;margin-bottom: 5px; height:30px;}
-.Rtable tr td:first-child{width:25%; background:#898989; color:#fff;}
-.Rtable input {width:100%; line-height:40px; color:#666; border:none; padding:2px 5px; }
-
+.Rtable{max-width:600px; height:300px; margin:0 auto; text-align: center; /*border:2px solid #898989;*/}
+.Rtable th{font-size: 18px; background:#fff; color:#000;margin-bottom: 5px; height:30px; border-bottom:#999; }
+.Rtable tr{border-bottom:1px solid #fff; }
+.Rtable tr td:first-child{width:30%; background:transparent; color:#fff; border-right:1px solid #fff;}
+.Rtable input {width:100%; line-height:40px; color:#ededed; border:none; padding:2px 5px; background:transparent; }
 
 
 
@@ -66,14 +69,14 @@
 #huatai_info .huatai_content{ width:100%; text-align: center; }
 #huatai_info .huatai_content a{display:block; margin-top:20px; }
 
-
+#result{color:rgb(196, 195, 195)}
 
 #partnerShip .partner_container .partner_subTitle { clear:both; text-align: center; padding:5px; width:120px; height;40px;  margin:30px auto; background: #ffc107; color:#333; }
 #partnerShip .partner_container .partner_subTitle h4{ width:100%; height:20px;  font-size: 18px; line-height:30px; }
-#partnerShip .partner_content{/*width:100%;*/ height:300px; margin-bottom: 30px;}
-#partnerShip .partner_content div{float: left;}
-#partnerShip .partner_content a{display:inline-block; float: left; width:31%; height:80px;margin:2% 1%; text-align: center; line-height:40px ;  }
-#partnerShip .partner_content .imgBox{clear:both; width:100%; height:60px;}
+#partnerShip .partner_content{height:300px; margin-bottom: 30px;}
+
+#partnerShip .partner_content a{ height:80px; text-align: center; line-height:40px ;  }
+#partnerShip .partner_content .imgBox{ display:inline-block; width:30%; height:100px; text-align: center;}
 #partnerShip .partner_content img{width:180px; }
 
 
@@ -82,4 +85,5 @@
 #footer .fwrap .footer-content{text-align: center;}
 #footer .fwrap .footer-content p{ line-height:1.8em; font-size: 14px;padding:20x; -webkit-box-sizing: border-box;
 -moz-box-sizing: border-box;
-box-sizing: border-box; color: #898989; font-weight: bold;}
+box-sizing: border-box; color: #898989; font-weight: normal;}
+#footer .fwrap .footer-content p span{font-weight:bold;}
