@@ -1,9 +1,12 @@
 h1{font-weight:bold!important}
 #about{width:100%; height:auto; }
 #about .container table{width:100%; max-width: 1000px; margin:0 auto;}
+#about .container p{text-align: left; margin:20px;}
 #about a{display:block; padding:40px; font-size:2.5rem; font-weight: bold; color:#1d1d48;}
 #about a:hover{color:#ffc107;}
+
 #service{width:100%; height:auto;}
+
 #service table{font-size:0.7rem!important;}
 #service table tr{width}
 #service .table-body{position:relative; height:500px;}
