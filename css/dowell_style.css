@@ -1,19 +1,24 @@
+*{font-family: 'NanumSquare', sans-serif;}
 h1{font-weight:bold!important}
-#about{width:100%; height:auto; }
-#about .container table{width:100%; max-width: 1000px; margin:0 auto;}
-#about .container p{text-align: left; margin:20px;}
-#about a{display:block; padding:40px; font-size:2.5rem; font-weight: bold; color:#1d1d48;}
-#about a:hover{color:#ffc107;}
 
-#service{width:100%; height:auto;}
+/*.bg_yellow{width:100%; height:auto; background:#ffc107;}*/
+#about{width:100%; height:auto; padding-bottom:20px;}
+#about .container table{width:100%; max-width: 1000px; margin:0 ;}
+#about .container p{text-align: center; margin:20px;}
+#about .container .small_title , #about .container .text{text-align: left;}
+.small_title {font-size:1.4rem; display: block; width:100%; font-weight: bold;margin-top:20px;}
+.gotoLink {display:block; width:100%; text-align: center; padding:20px 0; font-size:1.5rem; font-weight: bold; color:#1d1d48;}
+#about a:hover{color:#ffc107;text-decoration: none;}
 
-#service table{font-size:0.7rem!important;}
-#service table tr{width}
-#service .table-body{position:relative; height:500px;}
-#service .table-body table{position:absolute; top:2%;  font-size:0.7rem; /*height:500px*/;}
-#service .table th{ padding : none !important;}
-#service .table-body table th{width:50px;}
-#service .table-bordered td {height:30px !important;}
+#services{width:100%; height:auto; margin:0; padding:0 0 60px 0!important;}
+
+#services table{font-size:0.7rem!important;}
+
+#services .table-body{position:relative; height:500px;}
+#services .table-body table{position:absolute; top:2%;  font-size:0.7rem; /*height:500px*/;}
+#services .table th{ padding : none !important;}
+#services .table-body table th{width:50px;}
+#services .table-bordered td {height:30px !important;}
 
 .logo{color:#1d1d48 !important; text-decoration: none !important; }
 
@@ -35,23 +40,29 @@ h1{font-weight:bold!important}
 .row-top{margin-top:60px; margin-bottom: 60px;}
 
 /* dowell-health */
+#dowell_health .flow{ width:100%; height:160px; text-align: center;}
+#dowell_health .cardImg{width:100%; height:300px; text-align: center;}
+#dowell_health .cardImg img{width:700px;  text-align: center;}
 
-#dowell_health .health {float:left; width:30%;  height: 180px;  margin-right:5%;padding:25px; box-sizing: border-box; text-align: center; margin-top: 30px; border:2px solid #666;}
+/*
+#dowell_health .health_Box{padding-top:20px; width:900px; height:200px; margin:0 auto;}
+#dowell_health .health { margin: 0 2%;
+    float:left; width:30%;  height: 150px;  padding:12px; box-sizing: border-box; text-align: center; border:2px solid #666;}
 #dowell_health .health:last-child{margin-right:0px;}
 #dowell_health .health h4{font-size:24px; font-weight:bold; margin-bottom: 20px;}
 #dowell_health .health a{display: block; max-width:180px; width:100%; margin:0 auto;}
 #dowell_health .health p{font-size:15px;}
-#dowell_health .health img{width: 100%;}
+#dowell_health .health img{width: 100%;}*/
 
 [class*=row0]{margin:30px;}
-#dowell_health .card{width:100%; height: auto; padding:20px;  box-sizing: border-box; border:none;}
+/*#dowell_health .card{width:100%; height: auto; padding:20px;  box-sizing: border-box; border:none;}
 #dowell_health .card p{ width:100%; }
 #dowell_health .card p{ width:100%; text-align: center;}
 #dowell_health .card li{text-align: center; list-style: none;}
 #dowell_health .title {margin:50px 0;}
 #dowell_health .row02 {max-width:900px; width:100%; margin:0 auto;}
-#dowell_health .row02 .cardImg{max-width:700px; width:100%; margin:0 auto;}
-#dowell_health .row02 .cardImg img{width:100%; margin:20px auto; }
+#dowell_health .row02 .cardImg{max-width:700px; width:100%; margin:0 auto;}*/
+/*#dowell_health .row02 .cardImg img{width:100%; margin:20px auto; }*/
 .section-heading{margin-top:60px !important;}
 
 

@@ -235,6 +235,7 @@ body {
 }
 
 #mainNav .navbar-brand {
+    width:120px;
     font-weight: 700;
     text-transform: uppercase;
     color: #ffc107;
