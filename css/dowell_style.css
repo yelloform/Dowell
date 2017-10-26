@@ -66,22 +66,11 @@ h1{font-weight:bold!important}
 .section-heading{margin-top:60px !important;}
 
 
-#result{ width:100%;  }
-#result a{ display:block; margin:30px auto; width:290px; color:#000; }
-#result .imgWrap{width:100%; margin:0 auto; text-align: center; }
-#result .imgWrap img{width:100%; margin:20px auto;}
-
-.Rtable{max-width:600px; height:300px; margin:0 auto; text-align: center; /*border:2px solid #898989;*/}
-.Rtable th{font-size: 18px; background:#fff; color:#000;margin-bottom: 5px; height:30px; border-bottom:#999; }
-.Rtable tr{border-bottom:1px solid #fff; }
-.Rtable tr td:first-child{width:30%; background:transparent; color:#fff; border-right:1px solid #fff;}
-.Rtable input {width:100%; line-height:40px; color:#ededed; border:none; padding:2px 5px; background:transparent; }
-
 
 
 /*#huatai_info {}*/
-#huatai_info .huatai_content{ width:100%; text-align: center; }
-#huatai_info .huatai_content a{display:block; margin-top:20px; }
+/*#huatai_info .huatai_content{ width:100%; text-align: center; }
+#huatai_info .huatai_content a{display:block; margin-top:20px; }*/
 
 #result{color:rgb(196, 195, 195)}
 
