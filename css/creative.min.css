@@ -15,8 +15,8 @@ body {
 }
 
 hr {
-    max-width: 50px;
-    border-width: 3px;
+    max-width: 200px;
+    border-width: 5px;
     border-color: #ffc107
 }
 
@@ -477,6 +477,8 @@ header.masthead .header-content .header-content-inner p {
 }
 
 .call-to-action h2 {
+    font-size:2.8rem;
+    font-weight: bold;
     margin: 0 auto 20px
 }
 
