@@ -11,7 +11,7 @@ h1{font-weight:bold!important}
 #about a:hover{color:#4830ff;text-decoration: none;}
 #about  img{margin:40px auto;text-align: center;}
 #services{width:100%; height:auto; margin:0; padding:0 0 60px 0!important;}
-
+.sub_mb{margin-bottom: 60px !important;}
 #services table{font-size:0.7rem!important;}
 
 #services .table-body{position:relative; height:500px;}
