@@ -7,9 +7,9 @@ h1{font-weight:bold!important}
 #about .container p{text-align: center; margin:20px;}
 #about .container .small_title , #about .container .text{text-align: left;}
 .small_title {font-size:1.4rem; display: block; width:100%; font-weight: bold;margin-top:20px;}
-.gotoLink {display:block; width:100%; text-align: center; padding:20px 0; font-size:1.5rem; font-weight: bold; color:#1d1d48;}
-#about a:hover{color:#ffc107;text-decoration: none;}
-
+.gotoLink {display:block; width:100%; text-align: center; padding:20px 0; font-size:1.5rem; font-weight: bold; color:#ffc107;}
+#about a:hover{color:#4830ff;text-decoration: none;}
+#about  img{margin:40px auto;text-align: center;}
 #services{width:100%; height:auto; margin:0; padding:0 0 60px 0!important;}
 
 #services table{font-size:0.7rem!important;}
